@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE3BF2AC2AAB6AEF009139C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE3BF2AB2AAB6AEF009139C6 /* main.cpp */; };
+		AE3BF2B62AAB6D4B009139C6 /* hangman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE3BF2B32AAB6D4B009139C6 /* hangman.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		AE3BF2A82AAB6AEF009139C6 /* hangman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hangman; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3BF2AB2AAB6AEF009139C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AE3BF2B22AAB6D4B009139C6 /* hangman.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = hangman.hpp; sourceTree = "<group>"; };
+		AE3BF2B32AAB6D4B009139C6 /* hangman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hangman.cpp; sourceTree = "<group>"; };
+		AE3BF2B42AAB6D4B009139C6 /* hWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hWords.h; sourceTree = "<group>"; };
+		AE3BF2B52AAB6D4B009139C6 /* hClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				AE3BF2AB2AAB6AEF009139C6 /* main.cpp */,
+				AE3BF2B32AAB6D4B009139C6 /* hangman.cpp */,
+				AE3BF2B22AAB6D4B009139C6 /* hangman.hpp */,
+				AE3BF2B52AAB6D4B009139C6 /* hClass.h */,
+				AE3BF2B42AAB6D4B009139C6 /* hWords.h */,
 			);
 			path = hangman;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3BF2B62AAB6D4B009139C6 /* hangman.cpp in Sources */,
 				AE3BF2AC2AAB6AEF009139C6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
